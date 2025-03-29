@@ -64,10 +64,10 @@ Robotic arms in industries are a key element of automation, and they handle oper
 ---
 
 ## System Operation
-1. Upload the control code to the Arduino microcontroller.
-2. Connect the robotic arm to the GUI via USB (serial communication).
-3. Launch the Python GUI application.
-4. Adjust joint angles using the GUI controls to manipulate the arm.
+1. Uploading the control code to the Arduino microcontroller.
+2. Connecting the robotic arm to the GUI via USB (serial communication).
+3. Launching the Python GUI application.
+4. Adjusting the joint angles using the GUI controls to manipulate the arm.
 5. Commands are sent to the microcontroller, which processes them and actuates the motors.
 6. The **gesture recording function** stores movement sequences for automation, enabling smooth pick-and-place operations.
 
