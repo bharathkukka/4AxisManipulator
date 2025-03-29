@@ -3,7 +3,7 @@
 ## Project Timeline: July 2024 - December 2024
 
 ## Introduction
-Industrial robotic arms play a crucial role in automation, handling tasks such as assembly, welding, painting, and pick-and-place operations. Motivated by a deep interest in robotics, this project focuses on designing and implementing a 4-axis robotic manipulator specifically for pick-and-place applications.
+Robotic arms in industries are a key element of automation, and they handle operations such as assembly, welding, painting, and pick-and-place. With a passion in robotics, this project aims to design and develop a 4-axis robotic manipulator that is designed for pick-and-place operations.
 
 ---
 
@@ -11,8 +11,6 @@ Industrial robotic arms play a crucial role in automation, handling tasks such a
 ### Actuators:
 - **Stepper Motors:** [NEMA 17 stepper motor (1.8° step angle) - 3 units] (https://robu.in/product/nema-17-42hs40-1704-4-2-kg-cm-stepper-motor-round-type-shaft/)
 - **Servo Motors:** [2 units (one for the 4th axis and one for the end effector)] (https://robu.in/product/towerpro-mg996r-digital-high-torque-servo-motor/)
-
-### Electronics:
 - **Microcontrollers:** [Arduino Uno] (https://robu.in/product/arduino-uno-r3-ch340g-atmega328p-devlopment-board/) and [Smartelex Aryabhatta 8051](https://robu.in/product/smartelex-aryabhatta-8051-microcontroller-development-board-at89s52-with-onboard-usb-programmer/)
 - **Motor Driver:** [A4988 Stepper Motor Driver] (https://robu.in/product/a4988-driver-stepper-motor-driver-standard-quality/)
 - **Power Supply:** 12V DC
@@ -23,6 +21,8 @@ Industrial robotic arms play a crucial role in automation, handling tasks such a
 ## Design and Implementation
 
 ### Coordinate Frames and Kinematics
+![Coordinate Frame](FAM_media/FA1.png)
+
 - The manipulator consists of four rotational joints, each assigned a coordinate frame based on the Denavit-Hartenberg (DH) convention.
 - DH parameters define the relative transformations between adjacent frames, essential for establishing forward kinematics (FK) equations.
 - These coordinate frames are crucial for mapping the end-effector's position and orientation in 3D space, ensuring precise path planning and execution.
@@ -38,26 +38,28 @@ Industrial robotic arms play a crucial role in automation, handling tasks such a
 - These transformations enable precise calculations for pick-and-place operations and automation routines.
 
 ### MATLAB Simulation & Validation
-- **MATLAB’s Robotics Toolbox** was used to:
+![Matlab Visualization](FAM_media/FrameArrangement.png)
+![Forward Kinematics Solution](FAM_media/FKS.png)
+**MATLAB’s Robotics Toolbox** was used to:
   - Define DH parameters and compute transformations.
   - Simulate joint movements and analyze motion.
   - Generate the workspace to evaluate reachability.
-- MATLAB's visualization tools helped confirm the manipulator's operational range before assembly, reducing errors related to singularities or mechanical collisions.
+- MATLAB's visualization tools helped me confirm the manipulator's operational range before assembly, reducing errors related to singularities or mechanical collisions.
 
 ### CAD Design and 3D Printing
+![CAD design](FAM_media/Bharath.png)
 - The manipulator structure was designed using CAD software to ensure accurate dimensions and mechanical constraints.
 - Components were 3D-printed using **PLA material** for a lightweight yet sturdy design.
-- The assembly was tested in simulation before physical manufacturing, optimizing part sizes and reducing potential design flaws.
-
-### GUI for Robot Control
+- 
+### GUI for Robot Control 
+![GUI](FAM_media/GUI.png)
 - A **Python-based GUI** was developed for intuitive robotic arm control.
 - Features include:
   - Sliders for adjusting joint angles.
   - Buttons for executing predefined movements.
-  - Real-time display of joint values.
-  - Emergency stop button.
+  - Home button
 - The GUI communicates with the microcontroller via serial communication, sending commands to the **Arduino**, which processes them and drives the motors accordingly.
-- A **gesture recording feature** allows users to store and replay sequences of joint movements for automation.
+- A **gesture recording feature** allows to store and replay sequences of joint movements for automation.
 
 ---
 
