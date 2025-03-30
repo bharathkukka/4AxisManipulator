@@ -9,12 +9,12 @@ Robotic arms in industries are a key element of automation, and they handle oper
 
 ## Components Used
 ### Actuators:
-- **Stepper Motors:** [NEMA 17 stepper motor (1.8° step angle) - 3 units] (https://robu.in/product/nema-17-42hs40-1704-4-2-kg-cm-stepper-motor-round-type-shaft/)
-- **Servo Motors:** [2 units (one for the 4th axis and one for the end effector)] (https://robu.in/product/towerpro-mg996r-digital-high-torque-servo-motor/)
-- **Microcontrollers:** [Arduino Uno] (https://robu.in/product/arduino-uno-r3-ch340g-atmega328p-devlopment-board/) and [Smartelex Aryabhatta 8051](https://robu.in/product/smartelex-aryabhatta-8051-microcontroller-development-board-at89s52-with-onboard-usb-programmer/)
-- **Motor Driver:** [A4988 Stepper Motor Driver] (https://robu.in/product/a4988-driver-stepper-motor-driver-standard-quality/)
+- **Stepper Motors:** [NEMA 17 stepper motor (1.8° step angle) - 3 units](https://robu.in/product/nema-17-42hs40-1704-4-2-kg-cm-stepper-motor-round-type-shaft/)
+- **Servo Motors:** [2 units (one for the 4th axis and one for the end effector)](https://robu.in/product/towerpro-mg996r-digital-high-torque-servo-motor/)
+- **Microcontrollers:** [Arduino Uno](https://robu.in/product/arduino-uno-r3-ch340g-atmega328p-devlopment-board/) and [Smartelex Aryabhatta 8051](https://robu.in/product/smartelex-aryabhatta-8051-microcontroller-development-board-at89s52-with-onboard-usb-programmer/)
+- **Motor Driver:** [A4988 Stepper Motor Driver](https://robu.in/product/a4988-driver-stepper-motor-driver-standard-quality/)
 - **Power Supply:** 12V DC
-- **Voltage Regulation:** [Buck Converter] (https://robu.in/product/200w-20a-dc-dc-buck-converter-step-down-module-constant-current-led-driver-module/)
+- **Voltage Regulation:** [Buck Converter](https://robu.in/product/200w-20a-dc-dc-buck-converter-step-down-module-constant-current-led-driver-module/)
 
 ---
 
