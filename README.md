@@ -63,7 +63,7 @@ Robotic arms in industries are a key element of automation, and they handle oper
 
 ---
 
-### Manipulator
+### **Manipulator at the End**
 ![Final](https://github.com/bhaarath22/4AxisManipulator/blob/0752391cbe4940635e08c0d36fa32b73796b5784/FAM_media/4AM.jpeg)
 
 ## System Operation
