@@ -63,6 +63,9 @@ Robotic arms in industries are a key element of automation, and they handle oper
 
 ---
 
+### Manipulator
+![Final](https://github.com/bhaarath22/4AxisManipulator/blob/0752391cbe4940635e08c0d36fa32b73796b5784/FAM_media/4AM.jpeg)
+
 ## System Operation
 1. Uploading the control code to the Arduino microcontroller.
 2. Connecting the robotic arm to the GUI via USB (serial communication).
