@@ -1,6 +1,23 @@
 # 4-Axis Robotic Manipulator
 
-## Project Timeline: July 2024 - December 2024
+## Project Timeline: July 2024 - December 2024  
+---  
+
+## 📑 Table of Contents 
+
+1. [Introduction](#introduction)
+2. [Design and Implementation](#design-and-implementation)
+
+   * [Coordinate Frames and Kinematics](#coordinate-frames-and-kinematics)
+   * [Forward Kinematics using DH Parameters](#forward-kinematics-fk-using-denavit-hartenberg-dh-parameters)
+   * [MATLAB Simulation & Validation](#matlab-simulation--validation)
+   * [CAD Design and 3D Printing](#cad-design-and-3d-printing)
+   * [GUI for Robot Control](#gui-for-robot-control)
+3. [System Operation](#system-operation)
+4. [Future Improvements](#future-improvements)
+5. [Conclusion](#conclusion)
+
+---
 
 ## Introduction
 Robotic arms in industries are a key element of automation, and they handle operations such as assembly, welding, painting, and pick-and-place. With a passion in robotics, this project aims to design and develop a 4-axis robotic manipulator that is designed for pick-and-place operations.
