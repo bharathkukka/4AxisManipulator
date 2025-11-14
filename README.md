@@ -64,7 +64,8 @@ Robotic arms in industries are a key element of automation, and they handle oper
 - MATLAB's visualization tools helped me confirm the manipulator's operational range before assembly, reducing errors related to singularities or mechanical collisions.
 
 ### CAD Design and 3D Printing
-![CAD design](FAM_media/Bharath.png)
+![CAD design](FAM_media/Bharath.png)  
+
 - The manipulator structure was designed using CAD software to ensure accurate dimensions and mechanical constraints.
 - Components were 3D-printed using **PLA material** for a lightweight yet sturdy design.
 - 
