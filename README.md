@@ -3,7 +3,7 @@
 ## Project Timeline: July 2024 - December 2024  
 ---  
 
-## 📑 Table of Contents 
+## 📑 *Table of Contents*
 
 1. [Introduction](#introduction)
 2. [Design and Implementation](#design-and-implementation)
