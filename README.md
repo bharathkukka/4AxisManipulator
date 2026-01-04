@@ -1,4 +1,4 @@
-# 4-Axis Robotic Manipulator
+# *4-Axis Robotic Manipulator*
 
 ## Project Timeline: July 2024 - December 2024  
 ---  
